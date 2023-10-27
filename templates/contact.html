@@ -1,0 +1,24 @@
+{% extends 'base.html'%}
+{% block content %}
+<!-- contact section start -->
+<div class="contact_section layout_padding">
+   <div class="container">
+      <h1 class="contact_text">CONTACT US</h1>
+      <div class="row">
+         <div class="col-md-6">
+            <div class="contact-box">
+               <div class="image_10"><a href="{{url_for('static', filename='images/openkakao.png')}}"><img src="{{url_for('static', filename='images/openkakao.png')}}"></a></div>
+               <a class="contactus_text" href="https://open.kakao.com/o/sK8hYXfb">카카오오픈채팅</a>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="contact-box">
+               <div class="image_10"><a href="{{url_for('static', filename='images/instagram.png')}}"><img src="{{url_for('static', filename='images/instagram.png')}}"></a></div>
+               <a class="contactus_text" href="https://open.kakao.com/o/sK8hYXfb">인스타그램</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- contact section end -->
+{% endblock %}
